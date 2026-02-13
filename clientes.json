@@ -1,0 +1,12 @@
+{
+    "clientes": [
+        {
+            "nombre": "prueba",
+            "user": "Jeycamon1",
+            "pass": "Jeyca1",
+            "vencimiento": "2026-02-13 00:17",
+            "status": "Activo",
+            "link": "https://raw.githubusercontent.com/jesuscantillo1018-creator/Jeycamontv/maestro/global_jeycamon.m3u"
+        }
+    ]
+}
