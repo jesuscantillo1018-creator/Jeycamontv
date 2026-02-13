@@ -2,65 +2,58 @@ import requests
 import os
 import re
 
-BASE_STREAMS = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/"
-headers = {'User-Agent': 'Mozilla/5.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
-# Diccionario ampliado con Brasil y otros más
-paises = {
-    "co": "🇨🇴 COLOMBIA", "mx": "🇲🇽 MEXICO", "ar": "🇦🇷 ARGENTINA", 
-    "br": "🇧🇷 BRASIL", "es": "🇪🇸 ESPAÑA", "cl": "🇨🇱 CHILE", 
-    "pe": "🇵🇪 PERU", "ve": "🇻🇪 VENEZUELA", "ec": "🇪🇨 ECUADOR",
-    "pr": "🇵🇷 PUERTO RICO", "uy": "🇺🇾 URUGUAY", "pa": "🇵🇦 PANAMA",
-    "us": "🇺🇸 USA"
-}
-
-def procesar_url(url, nombre_grupo_manual, f):
+def el_canal_sirve(url):
+    """Prueba si el link abre en menos de 2 segundos"""
     try:
-        r = requests.get(url, headers=headers, timeout=10)
-        if r.status_code == 200:
-            count = 0
-            lines = r.text.splitlines()
-            for i in range(len(lines)):
-                if lines[i].startswith("#EXTINF"):
-                    linea = lines[i]
-                    v_url = lines[i+1].strip() if i+1 < len(lines) else ""
-                    if nombre_grupo_manual:
-                        linea = re.sub(r'group-title="[^"]*"', '', linea)
-                        linea = linea.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{nombre_grupo_manual}"')
-                    f.write(linea + "\n" + v_url + "\n")
-                    count += 1
-            return count
-    except: return 0
+        with requests.get(url, headers=headers, timeout=2.0, stream=True) as r:
+            return r.status_code == 200
+    except:
+        return False
 
-def generar_lista():
-    print("💎 Construyendo Jeycamon TV PRO con Brasil...")
+def limpiar_manteniendo_orden():
+    if not os.path.exists("manuales.m3u"):
+        print("❌ No hay canales manuales para limpiar.")
+        return
+
+    print("🧹 Limpiando canales muertos pero MANTENIENDO categorías...")
+    canales_vivos = []
+    
+    with open("manuales.m3u", "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    for i in range(len(lines)):
+        if lines[i].startswith("#EXTINF"):
+            info = lines[i].strip()
+            url = lines[i+1].strip() if i+1 < len(lines) else ""
+            
+            # Extraer el nombre para mostrar en pantalla
+            nombre = info.split(",")[-1]
+            print(f"⚖️ Verificando: {nombre[:30]}...", end="\r")
+            
+            if el_canal_sirve(url):
+                # Guardamos la línea completa (que ya tiene el group-title que te gusta)
+                canales_vivos.append(f"{info}\n{url}\n")
+
+    # Guardar solo los que sirven en el archivo manual
+    with open("manuales.m3u", "w", encoding="utf-8") as f:
+        for canal in canales_vivos:
+            f.write(canal)
+            
+    print(f"\n✅ ¡Limpieza terminada! Se quedaron {len(canales_vivos)} canales vivos con sus categorías intactas.")
+
+def generar_global():
+    # Esta parte junta el manual limpio con los países actualizados
+    print("📡 Regenerando lista global...")
     with open("global_jeycamon.m3u", "w", encoding="utf-8") as f:
-        f.write('#EXTM3U\n')
+        f.write("#EXTM3U\n")
         if os.path.exists("manuales.m3u"):
             with open("manuales.m3u", "r", encoding="utf-8") as m:
                 f.write(m.read())
-        for cod, nombre in paises.items():
-            print(f"📡 Obteniendo: {nombre}")
-            try:
-                r = requests.get(f"{BASE_STREAMS}{cod}.m3u", headers=headers, timeout=10)
-                if r.status_code == 200:
-                    lines = r.text.splitlines()
-                    for i in range(len(lines)):
-                        if lines[i].startswith("#EXTINF"):
-                            f.write(lines[i].replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{nombre}"') + "\n")
-                            f.write(lines[i+1] + "\n")
-            except: continue
+        # Aquí puedes añadir de nuevo la descarga de países si quieres
+        # que también se testeen los de Colombia, México, etc.
 
 if __name__ == "__main__":
-    while True:
-        res = input("¿Deseas añadir un link nuevo (Premium/24-7)? (s/n): ").lower()
-        if res == 's':
-            u = input("🔗 Link RAW: ").strip()
-            print("💡 Deja vacío para categorías originales o escribe una (ej: 01-PREMIUM)")
-            n = input("🏷️ Categoría: ").strip()
-            with open("manuales.m3u", "a", encoding="utf-8") as m:
-                cant = procesar_url(u, n.upper() if n else None, m)
-                print(f"✅ Se añadieron {cant} canales.")
-        else: break
-    generar_lista()
-    print("🚀 ¡Lista completa con nuevos países generada!")
+    limpiar_manteniendo_orden()
+    generar_global()
