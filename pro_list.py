@@ -3,18 +3,19 @@ import os
 
 BASE_STREAMS = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/"
 EPG_URL = "https://iptv-org.github.io/epg/guides/world.xml.gz"
-headers = {'User-Agent': 'Mozilla/5.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 def probar_canal(url):
     try:
-        r = requests.head(url, headers=headers, timeout=3)
+        # Aumentamos a 10 segundos para servidores lentos
+        r = requests.get(url, headers=headers, timeout=10, stream=True)
         return r.status_code == 200
     except:
         return False
 
 def procesar_url(url, nombre_grupo, f, modo_test=False):
     try:
-        r = requests.get(url, headers=headers, timeout=10)
+        r = requests.get(url, headers=headers, timeout=15)
         if r.status_code == 200:
             count = 0
             lines = r.text.splitlines()
@@ -26,7 +27,7 @@ def procesar_url(url, nombre_grupo, f, modo_test=False):
                         if not probar_canal(v_url):
                             print("❌")
                             continue
-                        print("✅")
+                        print("✅ OK")
                     f.write(lines[i].replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{nombre_grupo}"') + "\n")
                     f.write(v_url + "\n")
                     count += 1
@@ -42,10 +43,7 @@ def generar_lista():
         f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
         for cod, nombre in paises.items():
             procesar_url(f"{BASE_STREAMS}{cod}.m3u", nombre, f)
-        
-        # AQUÍ ESTÁ EL TRUCO: Leer canales guardados anteriormente
         if os.path.exists("manuales.m3u"):
-            print("cargando canales guardados previamente... ✅")
             with open("manuales.m3u", "r") as m:
                 f.write(m.read())
 
@@ -57,10 +55,13 @@ if __name__ == "__main__":
         if res == 's':
             u = input("🔗 Link RAW: ").strip()
             n = input("🏷️ Categoría: ").strip()
-            # Guardamos en el archivo permanente para que no se borre nunca
+            # Modo append 'a' para no borrar lo que ya tenías
             with open("manuales.m3u", "a", encoding="utf-8") as m:
-                procesar_url(u, f"🔥 {n.upper()}", m, modo_test=True)
-            # Re-generamos la lista principal para incluir lo nuevo
+                cant = procesar_url(u, f"🔥 {n.upper()}", m, modo_test=True)
+                if cant > 0:
+                    print(f"✨ ¡Se guardaron {cant} canales nuevos!")
+                else:
+                    print("⚠️ No se pudo rescatar ningún canal funcional de ese link.")
             generar_lista()
         else:
             break
