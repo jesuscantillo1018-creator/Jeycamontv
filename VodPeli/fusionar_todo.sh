@@ -1,49 +1,48 @@
 #!/bin/bash
-echo "🔥 INICIANDO MEGA-ACTUALIZACIÓN JEYCAMON TV 🔥"
 
-# 1. Ejecutar Rastreadores
-echo "🎬 Buscando Películas..."
+# Colores
+VERDE='\033[0;32m'
+AZUL='\033[0;34m'
+NC='\033[0m'
+
+echo -e "${AZUL}🚀 INICIANDO ACTUALIZACIÓN TOTAL JEYCAMON TV...${NC}"
+
+# 1. ESCANEAR TV EN VIVO (PAÍSES)
+echo -e "${VERDE}📡 Escaneando señales de TV Latam...${NC}"
+python escanear_vivo.py
+
+# 2. RASTREAR VOD (CINE Y SERIES)
+echo -e "${VERDE}🎬 Rastreo de Cine, Series y Especiales...${NC}"
 python catalogar_cine.py
-
-echo "📺 Buscando Series (Interactivo)..."
-cd tool_series
-python catalogar_series.py
-cp series_premium.m3u ../
-cd ..
-
-echo "🧬 Buscando Anime, Novelas y Especiales..."
 python catalogar_todo.py
 
-# 2. Proceso de Limpieza y Unión
-echo "⚙️  Unificando bases de datos..."
+# 3. FUSIÓN MAESTRA CON ORDEN POR PAÍSES
+echo "#EXTM3U" > temporal.m3u
 
-# Iniciamos con la base de canales
-cat global_jeycamon.m3u > temp.m3u
-
-# Añadimos Cine
-if [ -f "cine_premium.m3u" ]; then
-    sed '1d' cine_premium.m3u >> temp.m3u
+# Primero: Tus canales manuales testeados
+if [ -f "../manuales.m3u" ]; then
+    grep -v "#EXTM3U" ../manuales.m3u >> temporal.m3u
 fi
 
-# Añadimos Series
-if [ -f "series_premium.m3u" ]; then
-    sed '1d' series_premium.m3u >> temp.m3u
+# Segundo: Los canales en vivo que encontró por países
+if [ -f "canales_vivos.m3u" ]; then
+    grep -v "#EXTM3U" canales_vivos.m3u >> temporal.m3u
 fi
 
-# Añadimos Todo lo extra (Anime, Novelas, etc.)
-if [ -f "extra_premium.m3u" ]; then
-    sed '1d' extra_premium.m3u >> temp.m3u
-fi
+# Tercero: Cine y Series
+[ -f "cine_premium.m3u" ] && grep -v "#EXTM3U" cine_premium.m3u >> temporal.m3u
+[ -f "series_premium.m3u" ] && grep -v "#EXTM3U" series_premium.m3u >> temporal.m3u
+[ -f "extra_premium.m3u" ] && grep -v "#EXTM3U" extra_premium.m3u >> temporal.m3u
 
-# Eliminar duplicados y líneas vacías
-awk '!seen[$0]++' temp.m3u > global_jeycamon.m3u
-rm temp.m3u
+# Limpieza de duplicados
+awk '!seen[$0]++' temporal.m3u > ../global_jeycamon.m3u
+rm temporal.m3u
 
-# 3. Envío a GitHub
-echo "📤 Sincronizando con el servidor GitHub..."
+# 4. SUBIDA A GITHUB
+cd ..
 git add .
-git commit -m "🚀 Update JeycamonTV: Cine + 315 Series + Anime + Novelas"
+git commit -m "🔥 Update: +2600 items + TV Latam por Países + VOD Premium"
 git push origin maestro
 
-echo "✅ ¡CATÁLOGO TOTALMENTE ACTUALIZADO!"
+echo -e "${VERDE}✅ ¡SISTEMA EN LÍNEA! Tus clientes ya tienen los canales por países.${NC}"
 
