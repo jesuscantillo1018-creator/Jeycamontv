@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="🧧 JEYCAMON ANIME",DragonBallSuper
-http://45.226.168.29/movies/Anime/DragonBallSuper.mp4
 #EXTINF:-1 group-title="🧧 JEYCAMON ANIME",OnePiece
 http://45.226.168.29/movies/Anime/OnePiece.mp4
 #EXTINF:-1 group-title="🧧 JEYCAMON ANIME",Naruto
@@ -13,6 +11,8 @@ http://45.226.168.29/movies/Novelas/PasionDeGavilanes.mp4
 http://45.226.168.29/movies/Hentai/Hentai_Sample.mp4
 #EXTINF:-1 group-title="🔞 JEYCAMON HENTAI",Classic_H
 http://45.226.168.29/movies/Hentai/Classic_H.mp4
+#EXTINF:-1 group-title="💎 JEYCAMON 4K",Avatar2
+http://45.226.168.29/movies/4K/Avatar2.mp4
 #EXTINF:-1 group-title="💎 JEYCAMON 4K",TopGunMaverick
 http://45.226.168.29/movies/4K/TopGunMaverick.mp4
 #EXTINF:-1 group-title="⚽ JEYCAMON DEPORTE",UFC_300

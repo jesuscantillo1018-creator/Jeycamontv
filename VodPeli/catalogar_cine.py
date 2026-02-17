@@ -1,63 +1,51 @@
 import requests
+import re
 
-# Configuración
 IP = "45.226.168.29"
-RUTA = "/movies/"
-NOMBRE_ARCHIVO = "cine_premium.m3u"
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
-# Lista de títulos (puedes seguir ampliándola)
-PELIS = [
-    "Moana2", "Gladiador2", "DeadpoolWolverine", "Intensamente2", "Guason2", 
-    "Venom3", "Sonic3", "Avatar2", "Mufasa", "Wicked", "Terrifier3", "ElHoyo2",
-    "MarioBros", "Barbie", "Oppenheimer", "JohnWick4", "Pinocho", "Transformers",
-    "SpiderMan", "Batman", "Flash", "Aquaman2", "BlueBeetle", "Wonka",
-    "Minions", "ToyStory4", "Frozen2", "Coco", "Encanto", "Shrek", "KungFuPanda4",
-    "ElConjuro", "SawX", "TopGunMaverick", "Duna2", "GodzillaMinusOne", "AlienRomulus"
-]
+# 🎬 ORGANIZACIÓN POR GÉNEROS
+# Puedes añadir más títulos aquí y el script los buscará sin duplicar
+PELICULAS_POR_GENERO = {
+    "ESTRENOS 2024": ["Moana_2", "Gladiador_2", "Deadpool_Wolverine", "Intensamente_2", "Guason_2", "Venom_3", "Sonic_3", "Mufasa", "Wicked"],
+    "ACCION": ["John_Wick_4", "Transformers", "Spider_Man", "Batman", "Flash", "Aquaman_2", "Blue_Beetle", "Top_Gun_Maverick"],
+    "TERROR": ["Terrifier_3", "El_Conjuro", "Saw_X", "El_Hoyo_2", "Alien_Romulus"],
+    "INFANTIL": ["Mario_Bros", "Barbie", "Wonka", "Minions", "Toy_Story_4", "Frozen_2", "Coco", "Encanto", "Shrek", "Kung_Fu_Panda_4"],
+    "CIENCIA FICCION": ["Avatar_2", "Oppenheimer", "Duna_2", "Godzilla_Minus_One"]
+}
 
-EXTS = [".mp4", ".mov", ".mkv"]
+def limpiar_nombre(n):
+    return n.replace("_", " ").title()
 
-def limpiar_nombre(texto):
-    # Separa mayúsculas (ej: Moana2 -> Moana 2)
-    import re
-    res = re.sub(r'([a-z])([A-Z0-8])', r'\1 \2', texto)
-    return res.title()
-
-def generar_catalogo():
-    print(f"🎨 Embelleciendo JEYCAMON CINEMA...")
+def catalogar():
+    print("🎨 Clasificando películas por géneros...")
     total = 0
+    # Usamos set() para evitar duplicados en la misma sesión
+    encontradas_hoy = set()
 
-    with open(NOMBRE_ARCHIVO, "w") as f:
+    with open("cine_premium.m3u", "w") as f:
         f.write("#EXTM3U\n")
         
-        for p in PELIS:
-            hallada = False
-            for ext in EXTS:
-                if hallada: break
-                for variante in [p, p.lower(), p.replace(" ", "_")]:
-                    if hallada: break
-                    url = f"http://{IP}{RUTA}{variante}{ext}"
-                    try:
-                        r = requests.head(url, headers=HEADERS, timeout=1)
-                        if r.status_code == 200:
-                            nombre_bonito = limpiar_nombre(p)
-                            
-                            # URL de logo genérica basada en el nombre para que la APP busque el poster
-                            logo_url = f"https://www.themoviedb.org/search?query={p}" 
-                            
-                            # Escribimos la línea con metadatos extendidos
-                            f.write(f'#EXTINF:-1 tvg-name="{nombre_bonito}" tvg-logo="https://raw.githubusercontent.com/jesuscantillo1018-creator/Jeycamontv/maestro/logo_cine.png" group-title="🍿 JEYCAMON CINEMA",{nombre_bonito}\n')
-                            f.write(f'{url}\n')
-                            
-                            print(f"⭐ Agregada con estilo: {nombre_bonito}")
-                            total += 1
-                            hallada = True
-                    except:
-                        continue
-
-    print(f"\n🚀 ¡Listo! {total} películas formateadas para Jeycamontv.")
+        for genero, titulos in PELICULAS_POR_GENERO.items():
+            grupo = f"🍿 JEYCAMON {genero}"
+            print(f"\n📂 Categoría: {genero}")
+            
+            for t in titulos:
+                if t in encontradas_hoy: continue # Evita duplicar si pusiste la misma peli en dos géneros
+                
+                url = f"http://{IP}/movies/{t}.mp4"
+                try:
+                    r = requests.head(url, headers=HEADERS, timeout=1)
+                    if r.status_code == 200:
+                        nombre = limpiar_nombre(t)
+                        f.write(f'#EXTINF:-1 group-title="{grupo}",{nombre}\n{url}\n')
+                        print(f"  ⭐ {nombre}")
+                        encontradas_hoy.add(t)
+                        total += 1
+                except: continue
+                
+    print(f"\n🚀 ¡Listo! {total} películas organizadas por género.")
 
 if __name__ == "__main__":
-    generar_catalogo()
+    catalogar()
 
