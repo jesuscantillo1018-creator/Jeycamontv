@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="WinPlusFutbol.co" tvg-logo="", Win+ Fútbol
+http://servidor-video.com/live/529cff6f6bd2ea6b610000e0.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-logo="", Win Sports
+http://servidor-video.com/live/5265a8f3af1ecb9d320000ee.m3u8
