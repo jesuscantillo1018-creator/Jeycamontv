@@ -3671,3 +3671,13 @@ https://cityeden.catcast.tv/content/45268/index.m3u8
 https://cityeden.catcast.tv/content/41333/index.m3u8
 #EXTINF:-1 group-title="CINE PREMIUM" tvg-id="FeniksplusKino.ru@SD" tvg-logo="https://i.imgur.com/S9OPMLE.png" ,Феникс плюс Кино
 http://31.148.48.15/Feniks_plus_kino/index.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="WinPlusFutbol.co" tvg-logo="", Win+ Fútbol
+http://servidor-video.com/live/529cff6f6bd2ea6b610000e0.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-logo="", Win Sports
+http://servidor-video.com/live/5265a8f3af1ecb9d320000ee.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="WinPlusFutbol.co" tvg-logo="", Win+ Fútbol
+http://servidor-video.com/live/529cff6f6bd2ea6b610000e0.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-logo="", Win Sports
+http://servidor-video.com/live/5265a8f3af1ecb9d320000ee.m3u8
