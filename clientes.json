@@ -7,6 +7,14 @@
             "vencimiento": "2026-02-13 00:17",
             "status": "Activo",
             "link": "https://raw.githubusercontent.com/jesuscantillo1018-creator/Jeycamontv/maestro/global_jeycamon.m3u"
+        },
+        {
+            "nombre": "prueba",
+            "interes": "WIN SPORT + ",
+            "token": "vd5b3vy1",
+            "vencimiento": "2026-02-23 00:29",
+            "link_final": "https://raw.githubusercontent.com/jesuscantillo1018-creator/Jeycamontv/maestro/clientesTV/access_vd5b3vy1.m3u",
+            "fecha_registro": "2026-02-22"
         }
     ]
 }
