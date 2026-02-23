@@ -1,5 +1,5 @@
 {
-    "n_canales": 751,
+    "n_canales": 747,
     "categorias": [
         "24/7",
         "CANALES DE ANIMACION",
@@ -1796,11 +1796,6 @@
             "group": "VARIADOS"
         },
         {
-            "name": "Fashion Finds",
-            "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8",
-            "group": "VARIADOS"
-        },
-        {
             "name": "FNX",
             "url": "https://fnx.lls.pbs.org/index.m3u8",
             "group": "VARIADOS"
@@ -1833,11 +1828,6 @@
         {
             "name": "Gospel Truth TV",
             "url": "https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8",
-            "group": "VARIADOS"
-        },
-        {
-            "name": "GuyBai TV (1080p)",
-            "url": "https://livechannel.mdc.akamaized.net/stitch/livechannel/1342/master1400000.m3u8;session=live_stream_1342",
             "group": "VARIADOS"
         },
         {
@@ -3678,16 +3668,6 @@
         {
             "name": "Shubh Cinema TV (720p)",
             "url": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8",
-            "group": "CINE PREMIUM"
-        },
-        {
-            "name": "Thalaa TV (1080p)",
-            "url": "https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8",
-            "group": "CINE PREMIUM"
-        },
-        {
-            "name": "Tolly TV (1080p)",
-            "url": "https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8",
             "group": "CINE PREMIUM"
         },
         {

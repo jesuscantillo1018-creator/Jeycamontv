@@ -1,9 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r0tuG2r.jpg" group-title="Canales de Musica", OCKO | SD
-https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r0tuG2r.jpg" group-title="Canales de Musica", Ocko Star | SD
-http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r0tuG2r.jpg" group-title="Canales de Musica", Ocko Expres | SD
-http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0d9OjHQ.jpg" group-title="Canales de Musica", Company TV | HD
-https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8

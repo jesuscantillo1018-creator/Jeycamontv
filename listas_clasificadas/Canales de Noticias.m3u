@@ -1,5 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gDOEH0A.png" group-title="Canales de Noticias", France 24 | HD
-http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gswmnWM.png" group-title="Canales de Noticias", France 24 en EspaÃ±ol | HD
-http://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
