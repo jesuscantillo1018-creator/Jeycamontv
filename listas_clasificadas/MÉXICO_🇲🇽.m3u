@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 group-title="MÉXICO 🇲🇽",María Visión Mexico
+https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
+#EXTINF:-1 group-title="MÉXICO 🇲🇽",Once México
+https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1 group-title="MÉXICO 🇲🇽",Presumiendo México
+https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/k2T6u4G.png" group-title="MÉXICO 🇲🇽",Miami TV | HD | Mexico
+https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/chunklist_w1931827340_b1896000.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="MÉXICO 🇲🇽",MyTime Movie Network Mexico
+https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8

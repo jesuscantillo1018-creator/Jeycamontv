@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1 group-title="CHILE 🇨🇱",Chilecito TV
+https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
+#EXTINF:-1 group-title="CHILE 🇨🇱",Chile Channel
+https://v2.tustreaming.cl/chilechannel/index.m3u8
+#EXTINF:-1 group-title="CHILE 🇨🇱",ChileVision
+http://38.250.127.17:9800/play/a05h/index.m3u8
+#EXTINF:-1 group-title="CHILE 🇨🇱",Pichilemu TV
+https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8
+#EXTINF:-1 group-title="CHILE 🇨🇱",TV Chile
+https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/espn.png" group-title="CHILE 🇨🇱",ESPN Chile
+http://user.tvcluboficial.com/stream/nov/nov/842.m3u8
+#EXTINF:-1 tvg-logo="https://i2.paste.pics/8c05e352159b95f3dc0092a6149b3daf.png" group-title="CHILE 🇨🇱",La Chilena TV | CL
+https://app.viloud.tv/hls/channel/64948627cdd4d593bbd7724600c83c73.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-DVzBnJJGsHM/Xzh-ooBVTnI/AAAAAAAA4dk/Gl6kLefOEM0C6UdyAwM1__ki_GZ7OGYQACK8BGAsYHg/s0/2020-08-15.png" group-title="CHILE 🇨🇱",Chile Channel | CL
+https://v2.tustreaming.cl/chilechannel/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-dAThrFAhCtE/Xx-hwDQF4gI/AAAAAAAA3ic/BsAasEXfeos0_0c7QAorRga7pt2ZC1yfwCK8BGAsYHg/s0/2020-07-27.png" group-title="CHILE 🇨🇱",AmÃ©rica TV Chile | CL
+https://v2.tustreaming.cl:/radioamericatv/index.m3u8?PlaylistM3UCL

@@ -1,0 +1,27 @@
+#EXTM3U
+#EXTINF:-1 group-title="CINE Y SERIES 🍿",Disney Channel Latin America
+http://201.230.121.186:8000/play/a0fb/index.m3u8
+#EXTINF:-1 group-title="CINE Y SERIES 🍿",Disney Channel
+https://fl41.moveonjoy.com/DISNEY/index.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/cinemax.png" group-title="CINE Y SERIES 🍿",Cinemax
+http://user.tvcluboficial.com/stream/nov/nov/20.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/disneychannel.png" group-title="CINE Y SERIES 🍿",Disney Channel
+http://user.tvcluboficial.com/stream/nov/nov/29.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/disneyjr.png" group-title="CINE Y SERIES 🍿",Disney Junior
+http://user.tvcluboficial.com/stream/nov/nov/30.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/disneyxd.png" group-title="CINE Y SERIES 🍿",Disney XD
+http://user.tvcluboficial.com/stream/nov/nov/31.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hbo.png" group-title="CINE Y SERIES 🍿",HBO
+http://user.tvcluboficial.com/stream/nov/nov/62.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hbo.png" group-title="CINE Y SERIES 🍿",HBO
+http://user.tvcluboficial.com/stream/nov/nov/723.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hbo2.png" group-title="CINE Y SERIES 🍿",HBO 2
+http://user.tvcluboficial.com/stream/nov/nov/300.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hbo2.png" group-title="CINE Y SERIES 🍿",HBO 2
+http://user.tvcluboficial.com/stream/nov/nov/724.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hbofamily.png" group-title="CINE Y SERIES 🍿",HBO Family
+http://user.tvcluboficial.com/stream/nov/nov/63.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hboplus.png" group-title="CINE Y SERIES 🍿",HBO Plus
+http://user.tvcluboficial.com/stream/nov/nov/64.m3u8
+#EXTINF:-1 tvg-logo="http://x.playerlatino.live/hboplus.png" group-title="CINE Y SERIES 🍿",HBO Plus
+http://user.tvcluboficial.com/stream/nov/nov/722.m3u8

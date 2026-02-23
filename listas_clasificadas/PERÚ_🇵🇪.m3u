@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="PERÚ 🇵🇪",Panc TV Peru
+https://panel.host-live.com:19360/20000/20000.m3u8
+#EXTINF:-1 group-title="PERÚ 🇵🇪",Señal Perú TV
+https://livestream.perucast.com/hls/stream.m3u8
