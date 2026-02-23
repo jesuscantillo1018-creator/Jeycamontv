@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="AngelTV.in@Spanish" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Spanish (720p)
+https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="Series",BBC Drama (1080p)
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="CMMTV.es@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/CMMedia.svg/276px-CMMedia.svg.png" group-title="General;Public",CMM TV HD (1080p)
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="NatureTime.es@SD" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Documentary",NatureTime (1080p)
+https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="ThePetCollective.us@Spain" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Family",The Pet Collective
+https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ESPAÑA_ORG" tvg-id="TVBRICSSpanish.es@HD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Spanish (1080p)
+https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8

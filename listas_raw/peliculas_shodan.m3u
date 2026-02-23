@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 100
+http://64.23.147.53:3000/movie/user/pass/100.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 101
+http://64.23.147.53:3000/movie/user/pass/101.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 102
+http://64.23.147.53:3000/movie/user/pass/102.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 103
+http://64.23.147.53:3000/movie/user/pass/103.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 104
+http://64.23.147.53:3000/movie/user/pass/104.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 105
+http://64.23.147.53:3000/movie/user/pass/105.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 106
+http://64.23.147.53:3000/movie/user/pass/106.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 107
+http://64.23.147.53:3000/movie/user/pass/107.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 108
+http://64.23.147.53:3000/movie/user/pass/108.mp4
+#EXTINF:-1 group-title="ESTRENOS SHODAN", Pelicula Extraída 109
+http://64.23.147.53:3000/movie/user/pass/109.mp4

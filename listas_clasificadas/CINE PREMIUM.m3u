@@ -1,0 +1,69 @@
+#EXTM3U
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="AndTV.in@International" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" ,&TV International (1080p)
+https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="AbzyDhakad.in@SD" tvg-logo="https://i.imgur.com/5ORC4tn.png" ,Abzy Dhakad (504p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="AbzyMovies.in@SD" tvg-logo="https://i.imgur.com/LnVgKVF.png" ,Abzy Movies (480p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="Action24.gr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png" ,Action 24 (1080p)
+http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https://i.imgur.com/5pOZQB4.png" ,Artflix Movie Classics (720p)
+https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="B4UBhojpuri.in@SD" tvg-logo="https://i.imgur.com/NwOQUDp.png" ,B4U Bhojpuri (1080p)
+https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="B4UKadak.in@SD" tvg-logo="https://i.imgur.com/CKLn0ft.png" ,B4U Kadak (1080p) [Geo-blocked]
+https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="B4UMovies.in@India" tvg-logo="https://i.imgur.com/M9kMFJl.png" ,B4U Movies (1080p) [Geo-blocked]
+https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="BhojpuriCinema.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHOJPURI_CINEMA/images/LOGO_HD/image.png" ,Bhojpuri Cinema (720p)
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="CafeFilm.ir@SD" tvg-logo="https://i.postimg.cc/bJV7Ls4M/cafe-film.jpg" ,Cafe Film
+https://cafefhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="CineSony.us@SD" tvg-logo="https://i.imgur.com/bZWoDTg.png" ,Cine Sony (720p)
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="Cinevault80s.us@SD" tvg-logo="https://i.imgur.com/xaCyyDd.png" ,Cinevault 80s (540p) [Geo-blocked]
+https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="CTBPerthMoviesChannel.au@SD" tvg-logo="https://i.imgur.com/VB8gtCy.jpeg" ,CTB Perth Movies (720p)
+https://movies.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="DiscoverFilm.uk@SD" tvg-logo="https://i.imgur.com/oMnpsQ5.png" ,DiscoverFilm
+https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="FilamchiBhojpuri.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FILAMCHI_BHOJPURI/images/LOGO_HD/image.png" ,Filamchi Bhojpuri (1080p)
+https://epiconvh.akamaized.net/live/filamchi/master.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="Filmex.mx@SD" tvg-logo="https://i.imgur.com/Hiz2OyC.png" ,Filmex (Xumo) (1080p) [Geo-blocked]
+https://filmex-filmex-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="FilmexClasico.mx@SD" tvg-logo="https://i.imgur.com/D3dj4mv.png" ,Filmex Clásico (1080p) [Geo-blocked]
+https://filmex-filmexclasico-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="GEMPixel.tr@SD" tvg-logo="https://i.ibb.co/Q3tkbPrn/icon-27.png" ,GEM Pixel
+https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="GREATmovies.uk@UK" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png" ,GREAT! movies (1080p)
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="GREATromance.uk@UK" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" ,GREAT! romance (1080p)
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="GrjngoWesternMovies.de@SD" tvg-logo="https://i.imgur.com/wFqhK3p.png" ,Grjngo Western Movies (720p)
+https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="GroovyTV.gr@SD" tvg-logo="https://i.imgur.com/ZYNQuf1.png" ,Groovy TV (360p)
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="KCM.sg@India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KCM.png" ,KCM (1080p) [Geo-blocked]
+https://amg02159-amg02159c7-samsung-in-4001.playouts.now.amagi.tv/playlist/amg02159-kcglobal-kcm-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="MadeInHollywood.us@SD" tvg-logo="https://i.imgur.com/p16HNIM.png" ,Made in Hollywood
+https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="MaverickBlackCinema.us@SD" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" ,Maverick Black Cinema (1080p)
+https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" ,MyTime movie network Spain (1080p)
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="NollyAfrica.uk@SD" tvg-logo="https://i.imgur.com/IxtGpti.png" ,Nolly Africa [Geo-blocked]
+https://amg02784-nollyafricafast-amg02784c1-cineverse-us-1124.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-cineverseus/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="ShemarooJosh.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHUMBAK_TV/images/LOGO_HD/image.png" ,Shemaroo Josh (720p)
+https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="ShubhCinemaTV.in@SD" tvg-logo="https://i.imgur.com/RQhorAG.png" ,Shubh Cinema TV (720p)
+https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="ThalaaTV.in@HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/thalaa-tv.png" ,Thalaa TV (1080p)
+https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="TollyTV.in@HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png" ,Tolly TV (1080p)
+https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="WildSideTV.fr@SD" tvg-logo="https://i.imgur.com/cQkfRhH.png" ,Wildside TV (720p)
+https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="CineNanar.fr@SD" tvg-logo="https://i.imgur.com/YnUZd3W.png" ,Zylo Ciné Nanar
+https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="CINE PREMIUM" tvg-id="CineWestern.fr@SD" tvg-logo="https://i.imgur.com/tteOFkL.png" ,Zylo Ciné Western
+https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
