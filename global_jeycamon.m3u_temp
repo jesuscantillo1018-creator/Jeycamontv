@@ -22759,11 +22759,11 @@ http://64.23.147.53:3000/movie/user/pass/108.mp4
 http://64.23.147.53:3000/movie/user/pass/109.mp4
 #EXTM3U
 #EXTINF:-1 group-title="SHODAN_VOD",m1.m3u8
-https://jx.77flv.cc/?url=https://jx.77flv.cc/?url=http://64.23.147.53:9000/vod/media/m1.m3u8
+http://64.23.147.53:9000/vod/media/m1.m3u8
 #EXTINF:-1 group-title="SHODAN_VOD",m2.m3u8
-https://jx.77flv.cc/?url=https://jx.77flv.cc/?url=http://64.23.147.53:9000/vod/media/m2.m3u8
+http://64.23.147.53:9000/vod/media/m2.m3u8
 #EXTINF:-1 group-title="SHODAN_VOD",t1.m3u8
-https://jx.77flv.cc/?url=https://jx.77flv.cc/?url=http://64.23.147.53:9000/vod/media/t1.m3u8
+http://64.23.147.53:9000/vod/media/t1.m3u8
 #EXTINF:-1 group-title="SHODAN_NUEVO", Canal_Shodan
 https://raw.githubusercontent.com/jesuscantillo1018-creator/Jeycamontv/maestro/global_jeycamon.m3u
 #EXTINF:-1 group-title="SHODAN_NUEVO", Canal_Shodan
