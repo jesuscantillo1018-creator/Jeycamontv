@@ -9873,9 +9873,9 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=6571052a-c11e-4c95-8395-da035f5436f0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cine Terror LATAM
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cinema Hausa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/video.m3u8?ads.vf=v-YPzZubeoG
@@ -9949,7 +9949,7 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 https://stream.hrbtv.net/yspd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uJSDj8S0Fes1yhvxyomCQ1BmbtR.jpg" group-title="CINE PREMIUM",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpntwE5alXPD4ZnW7Gsbs5hsC7z.jpg" group-title="CINE PREMIUM",Home Plus
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/85pki6OI0QOZEmkc2B9DjssRwvG.jpg" group-title="CINE PREMIUM",Home Plus
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",ICC Plus
 https://icchls.wns.live/hls/stream.m3u8
@@ -10023,7 +10023,7 @@ https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7524-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9855fa27-eb7c-4e5a-852e-4c439515c25d
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",MOVIEDOME
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ff1af0f9-0233-4cce-be6f-dcc983244edf
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Movies Action
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5T9X9y7QkOpDCzG1AklL9XT8GbK.jpg" group-title="CINE PREMIUM",Movies Action
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lzz9ZBHHktzwYDBAwqRJHb9u42a.jpg" group-title="CINE PREMIUM",Movies Thriller
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
@@ -11685,9 +11685,9 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=6571052a-c11e-4c95-8395-da035f5436f0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cine Terror LATAM
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cinema Hausa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/video.m3u8?ads.vf=v-YPzZubeoG
@@ -11751,7 +11751,7 @@ http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/628e685ba3811100070551a8/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=fc1da926-1c2b-44de-a80b-57f4b8693e04
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Harbin Movie Channel
 https://stream.hrbtv.net/yspd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpntwE5alXPD4ZnW7Gsbs5hsC7z.jpg" group-title="CINE PREMIUM",Home Plus
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/85pki6OI0QOZEmkc2B9DjssRwvG.jpg" group-title="CINE PREMIUM",Home Plus
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",ICC Plus
 https://icchls.wns.live/hls/stream.m3u8
@@ -11817,7 +11817,7 @@ https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7524-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9855fa27-eb7c-4e5a-852e-4c439515c25d
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",MOVIEDOME
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ff1af0f9-0233-4cce-be6f-dcc983244edf
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Movies Action
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5T9X9y7QkOpDCzG1AklL9XT8GbK.jpg" group-title="CINE PREMIUM",Movies Action
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lzz9ZBHHktzwYDBAwqRJHb9u42a.jpg" group-title="CINE PREMIUM",Movies Thriller
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
@@ -14939,8 +14939,6 @@ https://movil.ejeserver.com/live/nets.m3u8
 https://video.ejeserver.com/live/nets.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="COLOMBIA 🇨🇴",Canal Oración Con Son
 https://canal.mediaserver.com.co/live/oracionconson.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="COLOMBIA 🇨🇴",Canal RCN
-http://38.183.182.166:8000/play/a10i/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="COLOMBIA 🇨🇴",Canal Santa Marta TV
 https://cdn.amelbasoluciones.co:8081/santamartalive/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="COLOMBIA 🇨🇴",Canal Telefamilia
@@ -15127,6 +15125,8 @@ https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://canal11delzulia.com/
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Catatumbo TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Canal C Del Zulia
+https://vs20.live.opencaster.com/cristianhilos_314b91b0/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Chivacoa TV Internacional
 https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Explosión Creativa
@@ -15158,7 +15158,7 @@ https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Monagas Visión
 https://cloud2.streaminglivehd.com:1936/monagasvision-2/monagasvision-2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Norteña TV
-https://live20.bozztv.com/giatv/giatv-2525Jmv/2525Jmv/chunks.m3u8
+https://vs20.live.opencaster.com/nortena933fm_00010364/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Oasis Televisión
 http://vcp1.myplaytv.com/oasistv/oasistv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VENEZUELA 🇻🇪",Onza TV
@@ -15431,8 +15431,6 @@ https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 http://38.250.127.17:9800/play/a067/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",Canal 74 San Antonio
 https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",Canal Claro
-https://stitcher.pluto.tv/stitch/hls/channel/68224482c5d53e1351aaf2f2/master.m3u8?appVersion=1&deviceDNT=0&deviceId=spencer&deviceMake=safari&deviceModel=web&deviceType=web&deviceVersion=1&servertSideAds=false&sid=e3ca3088-b0b3-11f0-ab21-da2bce2249f9
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",Canal ISB
 https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",CDTV
@@ -15569,6 +15567,10 @@ https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
 https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",VTV Valle de Aconcagua
 https://unlimited6-cl.dps.live/vtv/vtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",Retro Plus 2
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CHILE 🇨🇱",LTV
+https://live.cdnlivecdn.com/live/c9fe062eed2978749aa00df6485940d298449f5e.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VARIOS 🌐",ATN Televisión
 https://streaming5.globalhostla.com/rtplive/atntelevision/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="VARIOS 🌐",Avivamiento TV
@@ -17683,9 +17685,9 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=6571052a-c11e-4c95-8395-da035f5436f0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cine Terror LATAM
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cinema Hausa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/video.m3u8?ads.vf=v-YPzZubeoG
@@ -17759,7 +17761,7 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 https://stream.hrbtv.net/yspd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uJSDj8S0Fes1yhvxyomCQ1BmbtR.jpg" group-title="CINE PREMIUM",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?hd=true
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpntwE5alXPD4ZnW7Gsbs5hsC7z.jpg" group-title="CINE PREMIUM",Home Plus
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/85pki6OI0QOZEmkc2B9DjssRwvG.jpg" group-title="CINE PREMIUM",Home Plus
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",ICC Plus
 https://icchls.wns.live/hls/stream.m3u8
@@ -17833,7 +17835,7 @@ https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7524-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9855fa27-eb7c-4e5a-852e-4c439515c25d
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",MOVIEDOME
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ff1af0f9-0233-4cce-be6f-dcc983244edf
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Movies Action
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5T9X9y7QkOpDCzG1AklL9XT8GbK.jpg" group-title="CINE PREMIUM",Movies Action
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lzz9ZBHHktzwYDBAwqRJHb9u42a.jpg" group-title="CINE PREMIUM",Movies Thriller
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
@@ -19495,9 +19497,9 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=6571052a-c11e-4c95-8395-da035f5436f0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cine Terror LATAM
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aMz5WuJwvk5Qqr3Sfy1m1zUyGn5.jpg" group-title="CINE PREMIUM",Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hHwsr3t5n7VVUbPyU8VZswn0jkL.jpg" group-title="CINE PREMIUM",Cinema
 http://catchup.videoline.ru/cinema/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Cinema Hausa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/video.m3u8?ads.vf=v-YPzZubeoG
@@ -19561,7 +19563,7 @@ http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/628e685ba3811100070551a8/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=fc1da926-1c2b-44de-a80b-57f4b8693e04
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Harbin Movie Channel
 https://stream.hrbtv.net/yspd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpntwE5alXPD4ZnW7Gsbs5hsC7z.jpg" group-title="CINE PREMIUM",Home Plus
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/85pki6OI0QOZEmkc2B9DjssRwvG.jpg" group-title="CINE PREMIUM",Home Plus
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",ICC Plus
 https://icchls.wns.live/hls/stream.m3u8
@@ -19627,7 +19629,7 @@ https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e7524-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9855fa27-eb7c-4e5a-852e-4c439515c25d
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",MOVIEDOME
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=ff1af0f9-0233-4cce-be6f-dcc983244edf
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8N3S3X8.png" group-title="CINE PREMIUM",Movies Action
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5T9X9y7QkOpDCzG1AklL9XT8GbK.jpg" group-title="CINE PREMIUM",Movies Action
 https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lzz9ZBHHktzwYDBAwqRJHb9u42a.jpg" group-title="CINE PREMIUM",Movies Thriller
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8

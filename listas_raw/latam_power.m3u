@@ -45,8 +45,6 @@ https://movil.ejeserver.com/live/nets.m3u8
 https://video.ejeserver.com/live/nets.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CanalOracionConSon.co@SD",Canal Oración Con Son (1080p)
 https://canal.mediaserver.com.co/live/oracionconson.m3u8
-#EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CanalRCN.co@SD",Canal RCN (480p)
-http://38.183.182.166:8000/play/a10i/index.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CanalSantaMartaTV.co@SD",Canal Santa Marta TV (720p) [Not 24/7]
 https://cdn.amelbasoluciones.co:8081/santamartalive/index.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CanalTelefamilia.co@SD",Canal Telefamilia (360p) [Not 24/7]
@@ -87,7 +85,7 @@ https://cdn.amelbasoluciones.co:8081/cnctulualive/index.m3u8
 https://videohls2.cosmovision.tv/hls/sd.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="Cristovision.co@SD",Cristovisión (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="",CTV Barranquilla (1080p) [Not 24/7]
+#EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CTVBarranquilla.co@SD",CTV Barranquilla (1080p) [Not 24/7]
 https://59a564764e2b6.streamlock.net/ctvbarranquilla/ctv/playlist.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="CucutaRetroTV.co@SD",Cúcuta Retro TV [Not 24/7]
 https://mist01.homestream.fun/hls/ntvlive/0_1/index.m3u8
@@ -189,7 +187,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/telebolivar/playlist.m3u8
 https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="Telepacifico.co@SD",Telepacífico (1080p) [Geo-blocked]
 https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8
-#EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="",TeveColombia (720p) [Not 24/7]
+#EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="TeveColombia.co@SD",TeveColombia (720p) [Not 24/7]
 https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
 #EXTINF:-1 group-title="COLOMBIA 🇨🇴" tvg-id="TrecePlus.co@SD",Trece+ (480p)
 http://190.2.212.209:8050/play/a0nf
@@ -233,6 +231,8 @@ https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://canal11delzulia.com/
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="CatatumboTV.ve@SD",Catatumbo TV (406p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
+#EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="CanalCdelZulia.ve@HD",Canal C Del Zulia (720p)
+https://vs20.live.opencaster.com/cristianhilos_314b91b0/index.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="ChivacoaTVInternacional.ve@SD",Chivacoa TV Internacional (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="EXCTV.ve@SD",Explosión Creativa (720p) [Not 24/7]
@@ -264,7 +264,7 @@ https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="MonagasVision.ve@SD",Monagas Visión (720p) [Not 24/7]
 https://cloud2.streaminglivehd.com:1936/monagasvision-2/monagasvision-2/playlist.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="NortenaTv.ve@HD",Norteña TV
-https://live20.bozztv.com/giatv/giatv-2525Jmv/2525Jmv/chunks.m3u8
+https://vs20.live.opencaster.com/nortena933fm_00010364/index.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="OasisTelevision.ve@SD",Oasis Televisión (720p) [Not 24/7]
 http://vcp1.myplaytv.com/oasistv/oasistv/playlist.m3u8
 #EXTINF:-1 group-title="VENEZUELA 🇻🇪" tvg-id="OnzaTV.ve@SD",Onza TV (720p)
@@ -537,8 +537,6 @@ https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 http://38.250.127.17:9800/play/a067/index.m3u8
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="Canal74SanAntonio.cl@SD",Canal 74 San Antonio
 https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8
-#EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="CanalClaro.cl@SD",Canal Claro (720p)
-https://stitcher.pluto.tv/stitch/hls/channel/68224482c5d53e1351aaf2f2/master.m3u8?appVersion=1&deviceDNT=0&deviceId=spencer&deviceMake=safari&deviceModel=web&deviceType=web&deviceVersion=1&servertSideAds=false&sid=e3ca3088-b0b3-11f0-ab21-da2bce2249f9
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="CanalISB.cl@SD",Canal ISB (Iglesia San Bernardo) (720p)
 https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="CDTV.cl@SD",CDTV (720p) [Not 24/7]
@@ -561,7 +559,7 @@ https://unlimited2-cl-isp.dps.live/decimatv/decimatv.smil/playlist.m3u8
 https://paneltv.online:1936/8186/8186/playlist.m3u8
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="EnerGeek.cl@SD",EnerGeek (720p) [Not 24/7]
 https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH
-#EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="",EnerGeek Fan
+#EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="EnerGeekFAN.cl@SD",EnerGeek Fan
 https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="EnerGeekRadio.cl@SD",EnerGeek Radio (1080p)
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
@@ -675,3 +673,7 @@ https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
 https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
 #EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="VTVValledeAconcagua.cl@SD",VTV Valle de Aconcagua (720p) [Not 24/7]
 https://unlimited6-cl.dps.live/vtv/vtv.smil/playlist.m3u8
+#EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="RetroPlus2.cl@SD",Retro Plus 2 (720p)
+#EXTVLCOPT:http-referrer=https://retroplustv.com/
+#EXTINF:-1 group-title="CHILE 🇨🇱" tvg-id="LTV.cl@SD",LTV (2160p) [Not 24/7]
+https://live.cdnlivecdn.com/live/c9fe062eed2978749aa00df6485940d298449f5e.m3u8
